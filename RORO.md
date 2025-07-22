@@ -44,3 +44,13 @@ git config --global user.email "rociold027@gmail.com"
 git status
 git add .
 git commit -m "init"
+git log
+
+git branch -M main
+git remote add origin https://github.com/ringostar027/the-road-to-next.git
+git push -u origin main
+
+Si yo modifico algo, puedo ver que hay diferentes versiones entre mi VSC y mi git:
+
+git status
+git diff

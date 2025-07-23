@@ -54,3 +54,12 @@ Si yo modifico algo, puedo ver que hay diferentes versiones entre mi VSC y mi gi
 
 git status
 git diff
+
+Entonces actualizo y compruebo de la siguiente manera:
+
+git add .
+git status
+
+git commit -m "changes in roro.md"
+git status
+git log
